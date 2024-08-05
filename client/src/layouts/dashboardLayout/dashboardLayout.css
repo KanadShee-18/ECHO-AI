@@ -1,0 +1,24 @@
+.dashboardLayout {
+  display: flex;
+  gap: 50px;
+  padding-top: 20px;
+  height: 100%;
+
+  .menu {
+    flex: 1;
+  }
+
+  .content {
+    flex: 4;
+    background-image: linear-gradient(
+      to right top,
+      #030f20,
+      #001320,
+      #01161f,
+      #001c1f,
+      #031412
+    );
+    /* background: #0e0e22; */
+    /* background: radial-gradient(at center top, #13132b, #0e1f1d); */
+  }
+}
